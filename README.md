@@ -33,4 +33,4 @@ pip install requests
 from requests import get
 
 loc = get('https://ipapi.co/json/')
-print loc.json()
+print(loc.json())
